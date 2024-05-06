@@ -1,0 +1,394 @@
+@font-face {
+    font-family: links;
+    src: url(/swiss721_n4.f6382e9c4f554f3e521691eb0063f353bccaac61.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    padding: 13px 15px;
+    border-bottom: 1px solid black;
+}
+
+nav i {
+    font-size: 30px;
+
+}
+
+nav img {
+    height: 40px;
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+nav span {
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+}
+
+.one {
+    font-size: 250px;
+    font-weight: 900;
+}
+
+/* ************ */
+.sub-heading {
+    height: 58%;
+    /* background-color: red; */
+    border-bottom: 2px solid black;
+}
+
+.superlap {
+    width: 95%;
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translatex(-50%);
+
+}
+
+.link {
+    width: 100%;
+    text-align: center;
+    font-family: links;
+}
+
+
+
+.link a {
+    font-size: 120px;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.link a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.pink {
+    text-align: center;
+    width: 100%;
+    background-color: #FF39A4;
+    padding: 10px 0;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.pink marquee {
+    font-size: 26px;
+}
+
+/* *************** */
+
+.vid {
+    /* font-family:  Helvetica, sans-serif; */
+    font-weight: 100;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.877);
+
+}
+
+.vid video {
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.vid h2 {
+    padding: 15px 12px;
+    border-bottom: 1px solid black;
+}
+
+.text h1 {
+    font-size: 63px;
+    font-family: Helvetica;
+    font-weight: 200;
+    padding: 15px 0 80px 20px;
+    line-height: 100%;
+}
+
+.text a {
+    padding: 0 20px;
+    font-size: 50px;
+    color: black;
+    /* border-bottom: 1px solid black; */
+}
+
+.text2 {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    width: 100%;
+    height: 20%;
+    position: relative;
+    margin-top: 10%;
+    padding: 20px;
+}
+
+.text2 h1 {
+    font-size: 80px;
+    display: inline;
+
+}
+
+.text2 a {
+    position: absolute;
+    border-bottom: 1px solid black;
+    right: 2%;
+    bottom: 10%;
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    /* background-color: red; */
+    padding: 5px;
+}
+
+.text2 {
+    margin-top: 2%;
+    font-size: 25PX;
+    font-family: Helvetica;
+
+}
+
+.list {
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.list p {
+    /* margin-top: 1%; */
+    padding: 10px 0;
+    display: inline;
+    font-size: 20px;
+}
+
+.one {
+    position: absolute;
+    left: 2%;
+}
+
+.two {
+    position: absolute;
+    left: 50%;
+}
+
+.three {
+
+    position: absolute;
+    right: 2%;
+}
+
+
+/* //////////// */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    position: relative;
+}
+
+.left {
+    height: 100%;
+    width: 50%;
+    border-right: 1px solid black;
+    padding: 10px;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    padding: 20px;
+}
+
+.box h1 {
+    color: white;
+    font-size: 100px;
+}
+
+.right {
+    padding: 10px;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+}
+
+/* ** */
+.fresh {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+}
+
+.fresh marquee {
+    font-size: 100px;
+}
+
+.joinus {
+    border-top: 1px solid black;
+    padding: 15px;
+    width: 100%;
+    height: 30%;
+    border-bottom: 1px solid black;
+}
+
+.joinus h1 {
+    line-height: 90%;
+    font-size: 75px;
+}
+
+.cards {
+
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.cards span {
+    display: block;
+    height: 79vh;
+    width: 2px;
+    background-color: #000;
+}
+
+.card1 {
+    margin: 2% auto;
+    height: 350px;
+    border-radius: 15px;
+    width: 350px;
+    background-color: #008C22;
+}
+
+.card2 {
+    height: 350px;
+    margin: 2% auto;
+    border-radius: 15px;
+    width: 350px;
+    background-color: #FE39A4;
+}
+
+.cards h1 {
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    font-size: 30px;
+    padding: 20px;
+    background-color: #ECE4D9;
+}
+
+.card2 h1 {
+    text-transform: uppercase;
+}
+
+.cards p {
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.get-on-list {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    margin-top: 4%;
+    background-color: #FE39A4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.get-on-list h1 {
+    padding: 15px;
+    font-size: 30px;
+    font-family: Helvetica;
+}
+
+.li {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    justify-content: flex-end;
+
+
+}
+
+.li h2 {
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    margin-right: 15px;
+}
+
+.footer-list {
+    margin-top: 2%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 50vh;
+}
+
+.footer-list img {
+    height: 100px;
+    padding: 15px;
+}
+
+.list-foot {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    gap: 5px;
+}
+
+.list-foot a {
+    text-decoration: none;
+    color: #000;
+}
+
+.last-foot a {
+    color: black;
+}
+
+.footer {
+    padding: 20px;
+}
+
+.last-foot {
+    margin-right: 15%;
+}
